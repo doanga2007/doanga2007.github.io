@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<style id="compiled-css" type="text/css">
+body {
+  padding: 40px;
+  text-align: center;
+}
+
+button {
+  margin: .5rem 0;
+  font-size: 350%;
+}
+</style>
+</head>
+<body>
+    <!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API -->
+
+<button id = "find-me">แสดงตำแหน่งของคุณ</button><br/>
+<p id = "status"></p>
+<a id = "map-link" target="_top" style="font-size: 350%;"></a>
+
+<script type="text/javascript">
+    
+function geoFindMe() {
+
+  const status = document.querySelector('#status');
+  const mapLink = document.querySelector('#map-link');
+
+  mapLink.href = '';
+  mapLink.textContent = '';
+
+  function success(position) {
+    const latitude  = position.coords.latitude;
+    const longitude = position.coords.longitude;
+
+    status.textContent = '';
+    mapLink.href = `https://www.openstreetmap.org/#map=18/${latitude}/${longitude}`;
+    mapLink.textContent = `Latitude: ${latitude} °, Longitude: ${longitude} °`;
+  }
+
+  function error() {
+    status.textContent = 'Unable to retrieve your location';
+  }
+
+  if (!navigator.geolocation) {
+    status.textContent = 'Geolocation is not supported by your browser';
+  } else {
+    status.textContent = 'Locating…';
+    navigator.geolocation.getCurrentPosition(success, error);
+  }
+
+}
+
+document.querySelector('#find-me').addEventListener('click', geoFindMe);
+
+</script>
+
+<br><br><a href="index.php" style="font-size: 350%;">หน้าต่อไป Google Map</a>
+<br><br><a href="gpstracker3.php" style="font-size: 350%;">หน้าต่อไป Bing Map</a>
+<br><br><a href="gpstracker4.php" style="font-size: 350%;">หน้าต่อไป Apple Map</a>
+<br><br><a href="gpstracker5.php" style="font-size: 350%;">หน้าต่อไป Waze Map</a>
+
+</body>
+</html>
