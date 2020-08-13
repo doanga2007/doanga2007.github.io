@@ -1,0 +1,96 @@
+Running auto-py-to-exe v2.7.6
+Building directory: C:\Users\tum\AppData\Local\Temp\tmpios96mwt
+Provided command: pyinstaller --noconfirm --onefile --windowed  "C:/Users/tum/Desktop/โปรแกรม BoxDetection แบบ EXE/BoxDetection.py"
+Recursion Limit is set to 5000
+Executing: pyinstaller --noconfirm --onefile --windowed C:/Users/tum/Desktop/โปรแกรม BoxDetection แบบ EXE/BoxDetection.py --distpath C:\Users\tum\AppData\Local\Temp\tmpios96mwt\application --workpath C:\Users\tum\AppData\Local\Temp\tmpios96mwt\build --specpath C:\Users\tum\AppData\Local\Temp\tmpios96mwt
+
+27214 INFO: PyInstaller: 4.1.dev0
+27222 INFO: Python: 3.8.5
+27227 INFO: Platform: Windows-10-10.0.19041-SP0
+27234 INFO: wrote C:\Users\tum\AppData\Local\Temp\tmpios96mwt\BoxDetection.spec
+27252 INFO: UPX is not available.
+27272 INFO: Extending PYTHONPATH with paths
+['C:\\Users\\tum\\Desktop\\โปรแกรม BoxDetection แบบ EXE',
+ 'C:\\Users\\tum\\AppData\\Local\\Temp\\tmpios96mwt']
+27340 INFO: checking Analysis
+27351 INFO: Building Analysis because Analysis-00.toc is non existent
+27371 INFO: Initializing module dependency graph...
+27414 INFO: Caching module graph hooks...
+27491 INFO: Analyzing base_library.zip ...
+30829 INFO: Processing pre-find module path hook distutils from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-distutils.py'.
+30847 INFO: distutils: retargeting to non-venv dir 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib'
+36822 INFO: Caching module dependency graph...
+37145 INFO: running Analysis Analysis-00.toc
+37193 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by c:\users\tum\appdata\local\programs\python\python38\python.exe
+37384 INFO: Analyzing C:\Users\tum\Desktop\โปรแกรม BoxDetection แบบ EXE\BoxDetection.py
+41657 INFO: Processing pre-find module path hook site from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path\\hook-site.py'.
+41664 INFO: site: retargeting to fake-dir 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\fake-modules'
+47391 INFO: Processing pre-safe import module hook setuptools.extern.six.moves from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module\\hook-setuptools.extern.six.moves.py'.
+53376 INFO: Processing module hooks...
+53381 INFO: Loading module hook 'hook-cv2.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+53401 INFO: Loading module hook 'hook-eel.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+53694 INFO: Loading module hook 'hook-pycparser.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+53701 INFO: Loading module hook 'hook-distutils.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+53721 INFO: Loading module hook 'hook-encodings.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+54028 INFO: Loading module hook 'hook-gevent.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+54487 INFO: Determining a mapping of distributions to packages...
+70466 WARNING: Unable to find package for requirement greenlet from package gevent.
+70475 WARNING: Unable to find package for requirement zope.interface from package gevent.
+70484 WARNING: Unable to find package for requirement zope.event from package gevent.
+70504 INFO: Packages required by gevent:
+['cffi', 'setuptools']
+71801 INFO: Loading module hook 'hook-lib2to3.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+71862 INFO: Loading module hook 'hook-numpy.core.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+71986 INFO: Loading module hook 'hook-numpy.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+72008 INFO: Loading module hook 'hook-pkg_resources.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+72682 INFO: Processing pre-safe import module hook win32com from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\pre_safe_import_module\\hook-win32com.py'.
+72804 WARNING: Hidden import "pkg_resources.markers" not found!
+72814 INFO: Excluding import '__main__'
+72830 INFO:   Removing import of __main__ from module pkg_resources
+72841 INFO: Loading module hook 'hook-scipy.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+72862 INFO: Loading module hook 'hook-setuptools.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+73626 INFO: Loading module hook 'hook-sysconfig.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+73635 INFO: Loading module hook 'hook-xml.dom.domreg.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+73647 INFO: Loading module hook 'hook-xml.etree.cElementTree.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+73662 INFO: Loading module hook 'hook-xml.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+73679 INFO: Loading module hook 'hook-_tkinter.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks'...
+73883 INFO: checking Tree
+73894 INFO: Building Tree because Tree-00.toc is non existent
+73908 INFO: Building Tree Tree-00.toc
+74005 INFO: checking Tree
+74018 INFO: Building Tree because Tree-01.toc is non existent
+74034 INFO: Building Tree Tree-01.toc
+74064 INFO: Loading module hook 'hook-pythoncom.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+74491 INFO: Loading module hook 'hook-pywintypes.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+74932 INFO: Loading module hook 'hook-win32com.py' from 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks'...
+75468 INFO: Looking for ctypes DLLs
+75576 INFO: Analyzing run-time hooks ...
+75603 INFO: Including run-time hook 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py'
+75614 INFO: Including run-time hook 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py'
+75629 INFO: Including run-time hook 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py'
+75646 INFO: Including run-time hook 'c:\\users\\tum\\appdata\\local\\programs\\python\\python38\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32comgenpy.py'
+75693 INFO: Looking for dynamic libraries
+77319 INFO: Looking for eggs
+77327 INFO: Using Python library c:\users\tum\appdata\local\programs\python\python38\python38.dll
+77349 INFO: Found binding redirects: 
+[]
+77382 INFO: Warnings written to C:\Users\tum\AppData\Local\Temp\tmpios96mwt\build\BoxDetection\warn-BoxDetection.txt
+77561 INFO: Graph cross-reference written to C:\Users\tum\AppData\Local\Temp\tmpios96mwt\build\BoxDetection\xref-BoxDetection.html
+77630 INFO: checking PYZ
+77639 INFO: Building PYZ because PYZ-00.toc is non existent
+77670 INFO: Building PYZ (ZlibArchive) C:\Users\tum\AppData\Local\Temp\tmpios96mwt\build\BoxDetection\PYZ-00.pyz
+79568 INFO: Building PYZ (ZlibArchive) C:\Users\tum\AppData\Local\Temp\tmpios96mwt\build\BoxDetection\PYZ-00.pyz completed successfully.
+79622 INFO: checking PKG
+79635 INFO: Building PKG because PKG-00.toc is non existent
+79666 INFO: Building PKG (CArchive) PKG-00.pkg
+124082 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+124144 INFO: Bootloader c:\users\tum\appdata\local\programs\python\python38\lib\site-packages\PyInstaller\bootloader\Windows-64bit\runw.exe
+124154 INFO: checking EXE
+124173 INFO: Building EXE because EXE-00.toc is non existent
+124186 INFO: Building EXE from EXE-00.toc
+124220 INFO: Appending archive to EXE C:\Users\tum\AppData\Local\Temp\tmpios96mwt\application\BoxDetection.exe
+124382 INFO: Building EXE from EXE-00.toc completed successfully.
+
+Moving project to: C:\Users\tum\output
+Complete.
